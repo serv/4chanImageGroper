@@ -1,5 +1,6 @@
 4chanImageGroper is a image crawler that grabs all the images in a thread and saves them on your computer.
-Images with jpeg, jpg, png and gif are supported.
+Images with jpeg, jpg, png and gif extension are supported.
+Only /b/ board is supported.
 
 Recommended Ruby environment
 ruby 1.9.3p0 (2011-10-30 revision 33570) [x86_64-darwin11.2.0]
