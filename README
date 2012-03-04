@@ -1,6 +1,6 @@
 4chanImageGroper is a image crawler that grabs all the images in a thread and saves them on your computer.
 Images with jpeg, jpg, png and gif extension are supported.
-Only /b/ board is supported.
+All image boards are supported.
 
 Recommended Ruby environment
 ruby 1.9.3p0 (2011-10-30 revision 33570) [x86_64-darwin11.2.0]
@@ -9,7 +9,14 @@ To run the code,
 1. On your terminal, move to the directory where you want to download images.
 2. Save the ruby code into the directory.
 3. Run the following command. Replace IMAGE_URL with the url of the 4chan thread.
-<code>ruby 4chan_image_crawler.rb IMAGE_URL</code>
+$ ruby 4chan_image_crawler.rb IMAGE_URL
 4. Images should be downloaded into the directory.
+
+---
+
+Recent updates
+March 4, 2012
+- Supports all image boards. Not just /b/
+- Creates unique directory name automatically, when the code is run
 
 @jasoki
