@@ -5,12 +5,18 @@ All image boards are supported.
 Recommended Ruby environment
 ruby 1.9.3p0 (2011-10-30 revision 33570) [x86_64-darwin11.2.0]
 
+Installation
+
+Run "bundle install" in the script directory or "gem install nokogiri" to install the required 'nokogiri' gem.
+
 To run the code,
 1. On your terminal, move to the directory where you want to download images.
 2. Save the ruby code into the directory.
-3. Run the following command. Replace IMAGE_URL with the url of the 4chan thread.
-$ ruby 4chan_image_crawler.rb IMAGE_URL
+3. Run the following command. Replace THREAD_URL with the url of the 4chan thread.
+$ ruby 4chan_image_crawler.rb . THREAD_URL
 4. Images should be downloaded into the directory.
+
+You can re-run the same command again and the script will skip previously downloaded images.
 
 ---
 
