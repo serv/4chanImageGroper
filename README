@@ -19,4 +19,8 @@ March 4, 2012
 - Supports all image boards. Not just /b/
 - Creates unique directory name automatically, when the code is run
 
+May 31, 2012
+- 4chan rolled out new HTML/CSS for the website
+- Changed regex matching to work for new HTML
+
 @jasoki
