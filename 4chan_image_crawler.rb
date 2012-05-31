@@ -22,7 +22,8 @@ end
 
 def main(url)
   html_content = urlToString(url)
-  occurances = html_content.scan(/http:\/\/images\.4chan\.org\/.*?\/\d+\.[jpg|jpeg|gif|png]{3,4}/)
+  occurances = html_content.scan(/\/\/images\.4chan\.org\/.*?\/src\/\d+\.[jpg|jpeg|gif|png]{3,4}/)
+  occurances.map! { |incomplete_url| "http:" + incomplete_url }
   result = []
   (0..occurances.count-1).each do |i|
     if i%2 == 0
