@@ -34,6 +34,7 @@ def main(url)
   puts "There are #{result.count} images to download."
   
   directory_name = createDirectory
+  puts directory_name
   
   (0..result.count).each do |i|
     if result[i] != nil
